@@ -1,22 +1,24 @@
 # Word biblography styles
 
-## Introduction
+## SPWLA
 
-This is a collection of customized Microsoft Word biblography styles. It could be used for generating the reference section with the built-in reference features.
+The SPWLA (2021) bilography style for MS Word. This style could be used for submitting the "*Petrophysics*" journal papers. According to the [official guide](spwla-guide), the style supports the following formats:
 
-### How to use the reference features
+* Journal paper
+* Conference paper
+* Book / Report
+* Book chapter
+* Patent
+* Website
 
-Here we provide a simple tutorial for using the reference features:
+We also provide a legacy version SPWLA (2019), where we support
 
-|  Step  |  Figure  |
-| :----- | :------: |
-| 1. Choose the "References" section, and add the your bilography items by using the "Add New Source". | <img src="./display/intro-1.png" style="min-width: 450px"> |
-| 2. Choose a "source type", and fill the informations of the item. If you are using the default style, all types are defined. However, not all source types are supported for some customized styles. The "tag name" could be generated automatically. | <img src="./display/intro-2.png" style="min-width: 450px"> |
-| 3. After adding the item, you could find that the citation tag has been added in your article. If you want to add the same citation again, you could find it in the drop list. | <img src="./display/intro-3.png" style="min-width: 450px"> |
-| 4. First, choose a reference style; then choose a biblography style. The biblography section would be added instantly. | <img src="./display/intro-4.png" style="min-width: 450px"> |
-| 5. If you change your citations, you could click the "update" button on your reference list. The items would be automatically re-ordered according to your current text. | <img src="./display/intro-5.png" style="min-width: 450px"> |
+* Journal paper
+* Conference paper
+* Book / Report
+* Patent
 
-Please review the [example.docx](./example.docx) to view some most widely used examples of the source types.
+The SPWLA style is modified from *Harvard - Anglia* style. If any source type is not supported, the style would fall back to *Harbard - Anglia* style.
 
 ### How to add a customized biblography style
 
@@ -26,27 +28,25 @@ To add the customized biblography styles, please enter the following folder:
 C:\Users\<your-user-name>\AppData\Roaming\Microsoft\Bibliography\Style
 ```
 
-And copy your `<style>.xsl` to that path.
+And copy `SPWLA-2021.xsl` to that path.
 
 ### How about creating a style by yourself
 
 Please review [the official tutorial][ms-style]. The biblography style is defined by the OpenXML format. A suggest way to write your customized style is to modify an existing official style.
 
-## Collection list
+## Example
 
-Currently this collection includes the following styles. If any style is left blank here, it means I am arranging it. That style would be uploaded in the future:
+Download `example.docx` to view the style.
 
-| Title | Screenshot|
-| :-----: | :-----: |
-| SPWLA |  |
-| ACES |  |
+| Example |
+| ----- |
+| <img src="./display/fig-spwla.png" width="500px"> |
 
 ## Update report
 
-### 0.1 @ 05/31/2021
+### 2021 @ 05/31/2021
 
-1. Create this project.
+1. Upload `SPWLA 2021` style.
 
+[spwla-guide]:https://www.spwla.org/SPWLA/Publications/Publication_Guidelines/SPWLA/Publications/Journals/Journals.aspx "Petrophysics Journal"
 [ms-style]:https://docs.microsoft.com/en-us/office/vba/word/concepts/objects-properties-methods/create-custom-bibliography-styles "Create Custom Bibliography Styles"
-[ex-spwla]:../../tree/SPWLA
-[ex-aces]:../../tree/ACES
