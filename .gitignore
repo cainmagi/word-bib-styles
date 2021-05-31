@@ -1,0 +1,14 @@
+# Data, network and records
+/datasets*
+/legacy*
+/alpha*
+
+# Local configurations
+/.vscode/*
+
+# Data
+*.zip
+*.rar
+*.7z
+*.h5
+*.mat
