@@ -38,7 +38,7 @@ Currently this collection includes the following styles. If any style is left bl
 
 | Title | Screenshot|
 | :-----: | :-----: |
-| SPWLA |  |
+| [SPWLA][ex-spwla] | ![](./display/fig-spwla.png) |
 | ACES |  |
 
 ## Update report
@@ -46,6 +46,7 @@ Currently this collection includes the following styles. If any style is left bl
 ### 0.1 @ 05/31/2021
 
 1. Create this project.
+2. Upload the `SPWLA` style.
 
 [ms-style]:https://docs.microsoft.com/en-us/office/vba/word/concepts/objects-properties-methods/create-custom-bibliography-styles "Create Custom Bibliography Styles"
 [ex-spwla]:../../tree/SPWLA
