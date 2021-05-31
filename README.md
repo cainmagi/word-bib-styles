@@ -10,11 +10,11 @@ Here we provide a simple tutorial for using the reference features:
 
 |  Step  |  Figure  |
 | :----- | :------: |
-| 1. Choose the "References" section, and add the your bilography items by using the "Add New Source". | ![](./display/intro-1.png) |
-| 2. Choose a "source type", and fill the informations of the item. If you are using the default style, all types are defined. However, not all source types are supported for some customized styles. The "tag name" could be generated automatically. | ![](./display/intro-2.png) |
-| 3. After adding the item, you could find that the citation tag has been added in your article. If you want to add the same citation again, you could find it in the drop list. | ![](./display/intro-3.png) |
-| 4. First, choose a reference style; then choose a biblography style. The biblography section would be added instantly. | ![](./display/intro-4.png) |
-| 5. If you change your citations, you could click the "update" button on your reference list. The items would be automatically re-ordered according to your current text. | ![](./display/intro-4.png) |
+| 1. Choose the "References" section, and add the your bilography items by using the "Add New Source". | <img src="./display/intro-1.png" style="min-width: 450px"> |
+| 2. Choose a "source type", and fill the informations of the item. If you are using the default style, all types are defined. However, not all source types are supported for some customized styles. The "tag name" could be generated automatically. | <img src="./display/intro-2.png" style="min-width: 450px"> |
+| 3. After adding the item, you could find that the citation tag has been added in your article. If you want to add the same citation again, you could find it in the drop list. | <img src="./display/intro-3.png" style="min-width: 450px"> |
+| 4. First, choose a reference style; then choose a biblography style. The biblography section would be added instantly. | <img src="./display/intro-4.png" style="min-width: 450px"> |
+| 5. If you change your citations, you could click the "update" button on your reference list. The items would be automatically re-ordered according to your current text. | <img src="./display/intro-5.png" style="min-width: 450px"> |
 
 Please review the [example.docx](./example.docx) to view some most widely used examples of the source types.
 
