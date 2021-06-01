@@ -5662,6 +5662,33 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
+    <xsl:template name="BibDisplayTitleReportSlant">
+        <xsl:variable name="cTitle">
+            <xsl:value-of select="count(b:Title)"/>
+        </xsl:variable>
+        <xsl:variable name="cCity">
+            <xsl:value-of select="count(b:City)"/>
+        </xsl:variable>
+        <xsl:variable name="cYear">
+            <xsl:value-of select="count(b:Year)"/>
+        </xsl:variable>
+        <xsl:variable name="cPublisher">
+            <xsl:value-of select="count(b:Publisher)"/>
+        </xsl:variable>
+        <xsl:if test ="$cTitle!=0">
+            <xsl:call-template name="right-trim">
+                <xsl:with-param name ="s" select="b:Title"/>
+            </xsl:call-template>
+            <xsl:choose>
+                <xsl:when test=" $cCity!=0 or $cYear!=0 or  $cPublisher!=0  ">
+                    <xsl:call-template name ="templ_prop_ListSeparator"/>
+                </xsl:when>
+                <xsl:when test="$cCity=0 and $cYear=0 and $cPublisher=0 ">
+                    <xsl:call-template name = "templ_prop_Dot"/>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:if>
+    </xsl:template>
     <xsl:template name="BibDisplayYearCase">
         <xsl:variable name="cYear">
             <xsl:value-of select="count(b:Year)"/>
@@ -7440,12 +7467,14 @@
                         </xsl:attribute>
                         <xsl:element name="p">
                             <xsl:call-template name = "BibAddParagraphAttributes"/>
-                            <xsl:call-template name ="BibDisplayAuthorReport"/>
-                            <xsl:call-template name ="BibDisplayTitleReport"/>
-                            <xsl:call-template name ="BibDisplayOrganizationReport"/>
-                            <xsl:call-template name ="BibDisplayPublisher"/>
-                            <xsl:call-template name ="BibDisplayCityReport"/>
-                            <xsl:call-template name ="BibDisplayMonthYearReport"/>
+                            <xsl:call-template name = "BibDisplayAuthorReport"/>
+                            <i>
+                              <xsl:call-template name = "BibDisplayTitleReportSlant"/>
+                            </i>
+                            <xsl:call-template name = "BibDisplayOrganizationReport"/>
+                            <xsl:call-template name = "BibDisplayPublisher"/>
+                            <xsl:call-template name = "BibDisplayCityReport"/>
+                            <xsl:call-template name = "BibDisplayMonthYearReport"/>
                         </xsl:element>
                     </xsl:element>
                 </xsl:element>
