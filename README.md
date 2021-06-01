@@ -39,14 +39,15 @@ Currently this collection includes the following styles. If any style is left bl
 | Title | Screenshot|
 | :-----: | :-----: |
 | [SPWLA][ex-spwla] | ![](./display/fig-spwla.png) |
-| ACES |  |
+| [ACES][ex-aces] | ![](./display/fig-aces.png) |
 
 ## Update report
 
-### 0.1 @ 05/31/2021
+### 0.1 @ 06/01/2021
 
 1. Create this project.
 2. Upload the `SPWLA` style.
+3. Upload the `ACES` style.
 
 [ms-style]:https://docs.microsoft.com/en-us/office/vba/word/concepts/objects-properties-methods/create-custom-bibliography-styles "Create Custom Bibliography Styles"
 [ex-spwla]:../../tree/SPWLA
