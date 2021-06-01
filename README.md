@@ -39,6 +39,8 @@ Download `example.docx` to view the style.
 ### 2021 @ 06/01/2021
 
 1. Upload `IEEE - ACES 2021` style.
+2. Fix a bug of the report style.
+3. Format the file automatically.
 
 [aces-guide]:https://aces-society.org/journal_template.php "ACES Journal Template"
 [ms-style]:https://docs.microsoft.com/en-us/office/vba/word/concepts/objects-properties-methods/create-custom-bibliography-styles "Create Custom Bibliography Styles"
