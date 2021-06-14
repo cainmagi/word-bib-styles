@@ -2,6 +2,8 @@
 
 ## IEEE - ACES
 
+> :warning: This bib style is deprecated. According to the feedback from ACES, **only IEEE conference template is acceptable now**. See the new [official guide](aces-new-guide). Use this bib style along with the old template would be rejected for modifications. We recommend using the Word built-in IEEE style instead.
+
 The ACES (2021) bilography style for MS Word. This style could be used for submitting the "*International Review of Progress in Applied Computational Electromagnetics*" conference papers. According to the [official guide](aces-guide), the style is a little bit different from the built-in *IEEE* style. Currently, the style supports the following formats:
 
 * Journal paper
@@ -36,6 +38,10 @@ Download `example.docx` to view the style.
 
 ## Update report
 
+### 2021 @ 06/13/2021
+
+1. Add deprecation message.
+
 ### 2021 @ 06/01/2021
 
 1. Upload `IEEE - ACES 2021` style.
@@ -43,4 +49,5 @@ Download `example.docx` to view the style.
 3. Format the file automatically.
 
 [aces-guide]:https://aces-society.org/journal_template.php "ACES Journal Template"
+[aces-new-guide]:https://aces-society.org/conference/Online-Live_2021/conf_papers.php "2021 International Applied Computational Electromagnetics Society (ACES) Symposium"
 [ms-style]:https://docs.microsoft.com/en-us/office/vba/word/concepts/objects-properties-methods/create-custom-bibliography-styles "Create Custom Bibliography Styles"
